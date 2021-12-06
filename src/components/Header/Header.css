@@ -1,0 +1,66 @@
+/*******************HEADER*******************/
+
+.header-wrapper {
+  position: relative;
+  background: url(./pcPortable.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  margin-top: 6rem;
+  color: white;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-info h1 {
+  margin-top: 2rem;
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+.main-info p {
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+/************* TYPED *************/
+
+.typed {
+  margin-top: -15px;
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/*************BOUTON ME CONTACTER *************/
+
+.wrapperContact {
+  z-index: 2;
+}
+
+.btnContact {
+  display: block;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.btnContact:hover {
+  text-decoration: none;
+  letter-spacing: 15px;
+  color: #61dbfb;
+  border-top: 2px solid var(--primary-blue);
+  border-bottom: 2px solid var(--primary-blue);
+}

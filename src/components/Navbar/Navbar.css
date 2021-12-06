@@ -1,0 +1,39 @@
+/*******************PAGE ACCUEIL*******************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+nav {
+  z-index: 2;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.logo {
+  width: 10.25rem;
+}
+
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer !important;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-green) !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-toggler {
+  margin-top: 1rem;
+}
+
+.navbar-toggler-icon {
+  color: var(--primary-green) !important;
+}

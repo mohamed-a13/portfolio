@@ -1,0 +1,110 @@
+/*******************PROJETSListe*******************/
+
+.listContainer {
+  min-height: 85vh;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.listContainer h2 {
+  margin-bottom: 4rem;
+  margin-top: 1.875rem;
+  background-color: #68a063;
+  color: white;
+  font-family: "Monoton", cursive;
+  width: 17rem;
+  letter-spacing: 5px;
+  border-radius: 3px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radioDisplay {
+  width: 95%;
+  height: 3.175rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #343a40;
+  margin: auto;
+  border-radius: 10px;
+  padding-right: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.radioDisplay li {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  list-style: none;
+  text-align: center;
+}
+
+.radioDisplay li input[type="radio"] {
+  margin: 0.5rem;
+  display: none;
+}
+
+.radioDisplay li input[type="radio"]:checked + label {
+  transform: scale(1.1);
+}
+
+.radioDisplay li label:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  color: #a7caa4;
+}
+
+@media screen and (max-width: 993px) {
+  .radioDisplay {
+    height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .radioDisplay {
+    height: 11rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .listContainer {
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .radioDisplay {
+    min-height: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .listContainer {
+    min-height: 100vh;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 419px) {
+  .listContainer h2 {
+    letter-spacing: 0;
+    font-size: 1.5rem;
+    width: 11rem;
+  }
+}

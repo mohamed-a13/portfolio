@@ -1,0 +1,17 @@
+/*******************PAGE ERROR*******************/
+
+.errorMsgContainer {
+  color: red;
+  height: 100vh;
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.errorMsgContainer h2 {
+  margin-top: 10rem;
+  font-size: 5rem;
+}
+
+.errorMsgContainer p {
+  font-size: 2rem;
+}

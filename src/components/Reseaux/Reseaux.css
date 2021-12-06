@@ -1,0 +1,19 @@
+/************* RESEAUX SOCIAUX *************/
+
+.socialNetwork {
+  font-size: 1.7rem;
+}
+
+.menuReseaux {
+  display: flex;
+  justify-content: center;
+}
+
+.menuReseaux > li {
+  margin: 1rem;
+  list-style: none;
+}
+
+.menuReseaux > li > a {
+  color: var(--primary-green);
+}

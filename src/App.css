@@ -1,0 +1,23 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #61dbfb;
+  --primary-green: #68a063;
+  --primary-grey: #343a40;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.2 ease-in-out;
+}

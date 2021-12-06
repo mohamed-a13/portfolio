@@ -1,0 +1,31 @@
+/*******************FOOTER*******************/
+
+.footerContainer {
+  background-color: #343a40;
+  color: #68a063 !important;
+  padding-top: 2rem;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer a {
+  color: #61dbfb;
+}
+
+.footerContainer a:hover {
+  color: #187086;
+  transition: 0.5s;
+}
+
+.icon {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 769px) {
+  .footerContainer {
+    min-height: 55vh;
+  }
+}

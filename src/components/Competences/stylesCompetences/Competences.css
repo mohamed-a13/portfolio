@@ -1,0 +1,45 @@
+/*******************COMPETENCES*******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Condensed&display=swap");
+
+.competencesContainer {
+  text-align: justify;
+  color: #343a40 !important;
+  min-height: 50vh;
+}
+
+.rowCompetences {
+  display: flex;
+  align-items: center;
+}
+
+.competencesContainer h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #68a063;
+  color: white;
+  font-family: "Monoton", cursive;
+  width: 21.5rem;
+  letter-spacing: 5px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1120px) {
+  .competencesContainer {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .competencesContainer {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .competencesContainer h2 {
+    letter-spacing: 0;
+    font-size: 1.5rem;
+    width: 14rem;
+  }
+}

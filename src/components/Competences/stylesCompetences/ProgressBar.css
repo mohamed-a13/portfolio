@@ -1,0 +1,50 @@
+/*******************LANGUAGES*******************/
+
+.years {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.years span {
+  margin-left: 1.5rem;
+}
+
+.languagesList {
+  list-style: none;
+  text-align: left;
+}
+
+.progressBar {
+  position: relative;
+  height: 1.2rem;
+  background-color: #68a063;
+  margin-top: 0.2rem;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: progressBar-animation 5s forwards;
+}
+
+.percent {
+  font-size: 0.8rem;
+  animation: per 5s forwards;
+}
+
+@keyframes progressBar-animation {
+  0% {
+    width: 0%;
+  }
+}
+
+@keyframes per {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

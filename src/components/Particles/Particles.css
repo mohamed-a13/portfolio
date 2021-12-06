@@ -1,0 +1,8 @@
+/*******************BACKGROUND PARTICLES*******************/
+
+.tsparticles-canvas-el {
+  position: absolute;
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}

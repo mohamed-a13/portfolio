@@ -1,0 +1,40 @@
+/*******************PRESENTATION*******************/
+
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Condensed&display=swap");
+
+.presentationContainer {
+  margin-top: 1.875rem;
+  text-align: justify;
+  color: #343a40 !important;
+  min-height: 50vh;
+}
+
+.rowPresentation {
+  display: flex;
+  align-items: center;
+}
+
+.presentationContainer h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #68a063;
+  color: white;
+  font-family: "Monoton", cursive;
+  width: 21.5rem;
+  letter-spacing: 5px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 989px) {
+  .presentationContainer {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .presentationContainer h2 {
+    letter-spacing: 0;
+    font-size: 1.5rem;
+    width: 14rem;
+  }
+}

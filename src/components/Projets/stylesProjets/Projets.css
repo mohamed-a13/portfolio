@@ -1,0 +1,93 @@
+/*******************PROJETS*******************/
+
+.langue {
+  background-color: #68a063 !important;
+  color: #343a40;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0px 0px 4px 1px black;
+}
+
+.card-body {
+  background-color: #68a063;
+  color: #343a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  color: #61dbfb;
+}
+
+.modalA {
+  border-radius: 50%;
+  color: #343a40;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+.modalA:hover {
+  color: white;
+  background-color: #414850;
+  width: 2.2rem;
+  height: 2.2rem;
+  transition: 0.5s;
+}
+
+.lienSite {
+  text-decoration: none;
+  color: #61dbfb;
+}
+
+.lienSite:hover {
+  color: aqua;
+}
+
+.modal-content {
+  background: #343a40;
+}
+
+.fermer,
+.close {
+  color: #61dbfb;
+  background: #343a40;
+  cursor: pointer;
+}
+
+.fermer:hover {
+  color: aqua;
+}
+
+.close:hover {
+  color: aqua;
+}
+
+button:focus {
+  outline: none;
+}
+
+.popupContainer {
+  position: absolute;
+  top: auto;
+  left: auto;
+  width: 30rem;
+  height: 15rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.btnExit {
+  width: 10rem;
+  height: 5rem;
+}
